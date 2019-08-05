@@ -1,0 +1,15 @@
+{
+  "name": "cri-lox-ts",
+  "version": "0.1.2",
+  "description": "An implementation of Lox in TypeScript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "Oscar (zorbyte)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "typescript": "^3.5.3"
+  }
+}
